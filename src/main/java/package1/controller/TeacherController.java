@@ -29,7 +29,7 @@ public class TeacherController {
 	
 	@PostMapping
 	public Teacher createStudent(@RequestBody Teacher teacher) {
-		return teacherService.createStudent(teacher);
+		return teacherService.createTeacher(teacher);
 	}
 	
 }
